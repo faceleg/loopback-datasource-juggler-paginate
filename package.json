@@ -1,7 +1,7 @@
 {
   "name": "loopback-datasource-juggler-paginate",
   "author": "Michael Robinson <mike@pagesofinterest.net>",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Loopback Datasource Juggler plugin that adds findPaginate to model",
   "contributors": [
     {
