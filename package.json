@@ -1,0 +1,20 @@
+{
+  "name": "loopback-datasource-juggler-paginate",
+  "author": "Michael Robinson <mike@pagesofinterest.net>",
+  "version": "0.0.1",
+  "description": "Loopback Datasource Juggler plugin that adds findPaginate to model",
+  "contributors": [
+    {
+      "name": "Michael Robinson",
+      "email": "mike@pagesofinterest.net"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BrownPaperBag/loopback-datasource-juggler-paginate"
+  },
+  "dependencies": {
+    "lodash": "latest",
+    "bluebird": "latest"
+  }
+}
