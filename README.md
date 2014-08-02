@@ -2,7 +2,7 @@
 
 Loopback Datasource Juggler plugin that adds `findPaginate` method to Model.
 
-Currently expects query params as given by [`ng-table`], and provides an object intended to be used by the same.
+Currently expects query params as given by [`ng-table`][1], and provides an object intended to be used by the same.
 
 ## Usage
 
@@ -24,4 +24,4 @@ Model.findPaginate(req.query, {
 });
 ```
 
-[1] https://github.com/esvit/ng-table
+[1]: https://github.com/esvit/ng-table
