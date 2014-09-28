@@ -7,6 +7,21 @@ Currently expects query params as given by [`ng-table`][1], and provides an obje
 ## Usage
 
 ```JavaScript
+Model = connection.define('models', {
+ title: String,
+ status: {
+   type: String,
+   default: 'Active'
+ },
+ created: {
+   type: Date,
+   default: Date.now
+ },
+ updated: Date
+});
+  
+loopbackPaginate.addPaginateFunction(Model);
+
 /**
   *
   * @param {Object} Query params
